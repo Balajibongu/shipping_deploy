@@ -1,0 +1,9 @@
+manifest:
+  imageDocrepo: 832510228841.dkr.ecr.us-east-1.amazonaws.com/roboshop/shipping
+  imageVersion: v1
+  cpulimit: 500m
+  memorylimit: 512Mi
+autoscaling:
+  minReplicas: 1
+  maxReplicas: 10
+  averageUtilization: 50
